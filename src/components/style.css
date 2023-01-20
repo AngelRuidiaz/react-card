@@ -1,0 +1,49 @@
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(70, 149, 191, 0.554);
+    transition: all 0.7s linear;
+    
+}
+
+.card-body {
+    padding: 30px 0 !important;
+}
+
+.card-text {
+    padding: 5pc 15px;
+    font-size: 15px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.8);
+}
+
+
+img {
+    width: 420px;
+    height: 250px;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(70, 149, 191, 0.554);
+    transition: all 0.2s linear;
+    color: rgb(255, 252, 252) !important ;
+}
+
+a {
+    text-decoration: none !important ;
+    color: rgb(255, 255, 255) !important;
+    padding: 7px;
+    background-color: none;
+    border-radius: 10px;
+}
